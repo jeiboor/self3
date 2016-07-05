@@ -1,7 +1,7 @@
 do
     
 function run(msg, matches)
-  local help = [[Beyond Self Commands
+  local help = [[tele nfrat commands
 
 🔴دستورات مدیریتی ربات👇
 
@@ -100,9 +100,7 @@ function run(msg, matches)
 🔴!photo (by reply)
 🔹تبدیل استیکر به عکس با ریپلی
 
-➖➖➖➖➖➖
-Team Channel : 😎@BeyondTeam 😎
-➖➖➖➖➖➖]]
+
     if matches[1] == 'help' and is_sudo(msg) then
       send_large_msg("user#id"..msg.from.id, help)      
    return 'Help was sent in your private message'
